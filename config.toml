@@ -7,19 +7,23 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-theme = "solar-theme-zola"
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
 title = "Nothing is Unstable"
-description = "Data Science and Uncertainty"
+description = "The personal webpage of Jörg Rings"
 
-[markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
-highlight_theme = "solarized-dark"
 
 [extra]
-# Put all your custom variables here
-site_menus = [
-  { url = "https://github.com/jrings/nothing_is_unstable", name = "Repository" },
-  { url = "rss.xml", name = "RSS Feed" },
+theme = "auto"
+toc = true
+socials = [
+  { name = "bluesky", url = "https://bsky.app/profile/eatyoursoup.bsky.social", icon = "bluesky" },
+  { name = "github", url = "https://github.com/jrings/", icon = "github" },
+  { name = "linkedin", url = "https://www.linkedin.com/in/joergrings/", icon = "linkedin" }
 ]
+menu = [
+  { name = "/posts", url = "/posts", weight = 1 },
+  { name = "/projects", url = "/projects", weight = 2 }
+]
+
+# See this for more options: https://github.com/not-matthias/apollo/blob/main/config.toml#L14

@@ -4,8 +4,8 @@ description = "A Mod for Balatro"
 weight = 1
 
 [extra]
-local_image = "/projects/joker.png"
+# local_image = "/projects/joker.png"
 link_to = "https://gitlab.com/infinite_jesters/circus"
 +++
 
-Example project page
+Empty Project Page

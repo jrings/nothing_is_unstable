@@ -3,6 +3,6 @@ title= ""
 template = "homepage.html"
 +++
 
-Welcome. This is the personal webpage of Joerg Rings.
+Welcome. This is the personal webpage of Jörg Rings.
 
-You can use the links in the upper right corner to find the different sections.
+Use the links in the upper right to browse sections.

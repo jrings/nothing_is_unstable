@@ -28,7 +28,8 @@ socials = [
 ]
 menu = [
   { name = "/posts", url = "/posts", weight = 1 },
-  { name = "/projects", url = "/projects", weight = 2 }
+  { name = "/projects", url = "/projects", weight = 2 },
+  { name = "/art", url = "/art", weight = 2 }
 ]
 
 # See this for more options: https://github.com/not-matthias/apollo/blob/main/config.toml#L14

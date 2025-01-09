@@ -33,3 +33,9 @@ menu = [
 ]
 
 # See this for more options: https://github.com/not-matthias/apollo/blob/main/config.toml#L14
+
+[extra.analytics]
+enabled = false
+
+[extra.analytics.goatcounter]
+user = "nothingsisunstable"           # Your GoatCounter username

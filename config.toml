@@ -38,4 +38,4 @@ menu = [
 enabled = true
 
 [extra.analytics.goatcounter]
-user = "nothingsisunstable"           # Your GoatCounter username
+user = "nothingisunstable"           # Your GoatCounter username

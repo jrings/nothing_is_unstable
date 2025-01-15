@@ -38,6 +38,7 @@ if we throw those rows away we get this picture:
 
 ![alt text](@/posts/sciencing_data_missing_values_1_img_2.png)
 
+
 Much less scary, but still immediately clear that values are not missing at random.
 Something we can use in modeling.
 

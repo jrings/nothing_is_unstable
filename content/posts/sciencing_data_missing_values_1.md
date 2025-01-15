@@ -12,7 +12,7 @@ comment = false
 
 # Sciencing Data: Values Missing Not At Random
 
-So one dataset [I explored](posts/exploring_open_datasets) uses various soil and water measures
+So one dataset [I explored](@/posts/exploring_open_datasets) uses various soil and water measures
 to predict nitrogen concentration in a lake during base flow and after storm events.
 
 The dataset is interesting since it has a lot of features, relatively few rows and 
@@ -28,7 +28,7 @@ before jumping into imputation.
 Here's a quick trick to see if there is a pattern to missing values: just plot the array
 missing/not missing with `plt.imshow`. 
 
-![alt text](posts/sciencing_data_missing_values_1_img_1.png)
+![alt text](@/posts/sciencing_data_missing_values_1_img_1.png)
 
 Beyond looking pretty it's also immediately clear there's a system to values missing.
 Now this is related to sites and time and measurements, but let's not get into
@@ -36,7 +36,7 @@ that here. By staring at the image, or counting missings per row, we also
 find out that a good bunch of rows have very many or all values missing, so 
 if we throw those rows away we get this picture:
 
-![alt text](posts/sciencing_data_missing_values_1_img_2.png)
+![alt text](@/posts/sciencing_data_missing_values_1_img_2.png)
 
 Much less scary, but still immediately clear that values are not missing at random.
 Something we can use in modeling.

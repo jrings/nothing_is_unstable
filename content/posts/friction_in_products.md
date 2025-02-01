@@ -1,6 +1,6 @@
 +++
-title = "Exploring Open Datasets"
-date = "2025-01-31"
+title = "Designing for Friction in Products"
+date = "2025-02-01"
 
 [taxonomies]
 tags=["technology", "products"]
